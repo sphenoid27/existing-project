@@ -1,0 +1,69 @@
+x<-1:4, y<-2
+x<-1:4
+y<-2
+x+y
+x<-4L
+class(x)
+x<-c(4,"a",TRUE)
+calss(x)
+x<-c(1,3,5)
+y<-c(3,2,10)
+rbind(x,y)
+x<-list(2,"a","b",TRUE)
+X[[1]]
+x[[1]]
+x<-1:4
+y<-2
+x+y
+x <- c(17, 14, 4, 5, 13, 12, 10)
+x[x > 10] == 4
+x[x > 10] <- 4
+x
+x[x > 4] <- 10
+x
+data<-read.csv("hw1_data.csv")
+data<-read.csv("hw1_data.csv")
+data
+x<-readLines(152,153)
+x[[152]]
+x<-data
+x[[152]]
+<-readLines(row=47)
+x<-readLines(nrow=47)
+data[[47]]
+good<-complete.cases("hw1_data.csv")
+good
+good<-complete.cases(data)
+good
+data[1:153,Ozone]
+data[1:153, 1]
+good<-complete.cases(data)
+airquality[good, ][1:153,1]
+mean[airquality]
+mean(airquality[good,][1:153,1])
+data
+x<-list(Ozone>31)
+x<-list(x)
+x
+if(x>3){y<-10}
+x<-c(1:10)
+y<-c(5:14)
+if(x>3){y<-10} else{y<-0}
+for(i in 1:10) {pring(i)}
+for(i in 1:10) {print(i)}
+x<-c("a","b","c","d")
+for(i in 1:4) {print(x[i])}
+for(i in seq_along(x)) {print(x[i])}
+for(letter in x) {print(letter)}
+for(i in 1:4) print(x[i])
+x<-matrix(1:6, 2,3)
+x
+for(i in seq_len(nrow(x))) {for(j in seq_len(ncol(x)))} {print(x[i,j])}
+for(i in seq_len(nrow(x))) {for(j in seq_len(ncol(x))) {print(x[i,j])}
+}
+count<-0 while(count<10) {print(count) count<-count+1}
+count<-0
+while(count<10){print(count) count<-count+1}
+while(count < 10) {print(count) count <- count+1}
+count<-0 while(count<-10)
+cuount<-0 while(count<10)
